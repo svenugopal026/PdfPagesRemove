@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+input[type="file"],
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+#pageSelector {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.page-btn {
+  padding: 8px 12px;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.page-btn.selected {
+  background-color: #ff4d4d;
+  color: white;
+  font-weight: bold;
+}
